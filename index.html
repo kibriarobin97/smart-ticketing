@@ -22,8 +22,57 @@
 </head>
 
 <body>
-    <header>
+    <header class="w-4/5 mx-auto">
+        <!-- navbar section -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-[#030712B3]">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-3xl font-extrabold">P-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end space-x-2">
+                    <a class="text-xl font-bold text-[#1DD100]">Bus</a>
+                    <img src="images/bus-icon.png" alt="">
+                </div>
+            </div>
+        </nav>
 
+        <!-- banner section -->
+        <div class="my-5">
+            <div class="hero min-h-96 rounded-2xl" style="background-image: url(./images/banner.png); ">
+                <div class=" bg-opacity-60 rounded-2xl"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-2xl">
+                        <h1 class="mb-5 text-5xl font-extrabold">End-to-End Travel with <br><span class="text-[#1DD100]">P Paribahan</span></h1>
+                        <p class="mb-5">Welcome to P Paribahan, your trusted partner for end-to-end travel solutions! Whether you're embarking on a short journey or a long adventure.</p>
+                        <button class="btn bg-[#1DD100] text-black border-none">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
 
