@@ -54,7 +54,7 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <button class="flex gap-1 justify-center items-center">
+                    <button class="flex gap-1 justify-center items-center hover:bg-[#B68C5A] duration-500 px-4 py-2 rounded-md">
                         <a class="text-xl font-bold text-[#1DD100]">Bus</a>
                         <img src="images/bus-icon.png" alt="">
                     </button>
@@ -73,7 +73,7 @@
                         <p class="mb-5 text-[#FFFFFF]">Welcome to P Paribahan, your trusted partner for end-to-end
                             travel solutions!
                             Whether you're embarking on a short journey or a long adventure.</p>
-                        <button class="btn bg-[#1DD100] text-black border-none">Buy Tickets</button>
+                        <button class="btn bg-[#1DD100] text-black border-none hover:bg-[#B68C5A] duration-500">Buy Tickets</button>
                     </div>
                 </div>
             </div>
@@ -125,12 +125,13 @@
                 </div>
             </div>
             <div class="flex justify-center items-center mt-10">
-                <button class="btn text-[#1DD100] border-[#1DD100] bg-white">See All Offers</button>
+                <button class="btn text-[#1DD100] border-[#1DD100] bg-white hover:bg-[#B68C5A] duration-500">See All Offers</button>
             </div>
         </div>
 
+        <!-- paribahan section -->
         <section class="bg-[#F7F8F8]">
-            <div class="my-20 w-4/5 mx-auto py-10">
+            <div class="mt-20 w-4/5 mx-auto py-10">
                 <div class="text-center space-y-4 mb-10">
                     <h3 class="text-4xl font-bold">P.H Paribahan</h3>
                     <p class="w-3/4 mx-auto">P.H. Paribahan is a well-known transportation service providing bus routes
@@ -184,7 +185,78 @@
                     </div>
                 </div>
             </div>
-            
+            <div class="w-4/5 mx-auto bg-[#FFFFFF] p-5 rounded-lg grid grid-cols-3 gap-8">
+                <div class="col-span-2">
+                    <h3 class="text-2xl font-semibold">Select Your Seat</h3>
+                    <div class="flex items-center justify-between my-8">
+                        <div class="flex items-center gap-1">
+                            <img src="images/seat-gray.png" alt="">
+                            <p class="text-[#03071280] font-medium">Available</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="images/seat-green-filled.png" alt="">
+                            <p class="text-[#1DD100] font-medium">Selected</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <div class="bg-[#0307121A] py-2 px-6 rounded-lg"><img src="images/Vector.png" alt=""></div>
+                    </div>
+                    <div class="my-8 grid grid-cols-4 gap-5">
+                        <button class="bg-[#F7F8F8] py-2 px-6 rounded-md">A1</button>
+                        <button class="bg-[#F7F8F8] py-2 px-6 rounded-md">A2</button>
+                        <button class="bg-[#F7F8F8] py-2 px-6 rounded-md">A3</button>
+                        <button class="bg-[#F7F8F8] py-2 px-6 rounded-md">A4</button>
+                        <button class="bg-[#F7F8F8] py-2 px-6 rounded-md">B1</button>
+                        <button class="bg-[#F7F8F8] py-2 px-6 rounded-md">B2</button>
+                        <button class="bg-[#F7F8F8] py-2 px-6 rounded-md">B3</button>
+                        <button class="bg-[#F7F8F8] py-2 px-6 rounded-md">B4</button>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-semibold">Select Your Seat</h3>
+                    <div class="bg-[#F7F8F8] p-5 rounded-lg my-10">
+                        <div class="flex items-center justify-between">
+                            <p class="font-medium">Seat <span class="text-[#1DD100]">0</span></p>
+                            <p class="font-medium">Class</p>
+                            <p class="font-medium">Price</p>
+                        </div>
+                        <div class="flex items-center justify-between mt-5 border-t-2 pt-2">
+                            <p class="font-medium">Total Price</p>
+                            <p class="font-medium">BDT <span>0</span></p>
+                        </div>
+                        <div class="my-5 flex">
+                            <input type="text" placeholder="Have any coupon?"
+                                class="py-2 px-4 w-full max-w-xs bg-[#FFFFFF] rounded-l-lg" />
+                            <button class="bg-[#1DD100] py-2 px-4 text-white rounded-r-lg hover:bg-[#B68C5A] duration-500">Apply</button>
+                        </div>
+                        <div class="flex items-center justify-between border-t-2 pt-2">
+                            <p class="font-medium">Grand Total</p>
+                            <p class="font-medium">BDT <span>0</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="space-y-2">
+                            <label class="text-xl font-semibold" for="">Passenger Name*</label>
+                            <input type="text" placeholder="Enter Your Name"
+                                class="input input-bordered w-full border-none bg-[#13131808]" />
+                        </div>
+                        <div class="space-y-2 my-5">
+                            <label class="text-xl font-semibold" for="">Phone Number*</label>
+                            <input type="number" placeholder="Enter Your Phone Number"
+                                class="input input-bordered w-full border-none bg-[#13131808]" />
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-xl font-semibold" for="">Email ID</label>
+                            <input type="email" placeholder="Enter Your Email"
+                                class="input input-bordered w-full border-none bg-[#13131808]" />
+                        </div>
+                        <div>
+                            <button class="btn text-xl font-bold text-white bg-[#1DD100] hover:bg-[#B68C5A] duration-500 w-full my-5">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
