@@ -188,7 +188,7 @@
                 </div>
             </div>
             <div class="w-4/5 mx-auto">
-                <div class="bg-[#FFFFFF] mt-10 p-6 grid grid-cols-1 lg:grid-cols-2 gap-14 inter-font ">
+                <div class="bg-[#FFFFFF] mt-10 p-6 grid grid-cols-1 lg:grid-cols-2 gap-14">
                     <div class="space-y-4 p-2 ">
                         <h1 class="text-2xl font-bold">Select Your Seat</h1>
                         <hr class="border-dashed border-2">
@@ -401,14 +401,14 @@
                         <div class="space-y-6">
                             <h1 class="font-bold">Passenger Name*</h1>
                             <input type="text" placeholder="Enter your name" name="" id=""
-                                class=" border py-5 pl-6 w-full rounded-xl ">
+                                class=" border py-5 pl-6 w-full rounded-xl" required>
                             <h1 class="font-bold">Phone Number*</h1>
                             <input id="input-number" onclick="inputInformation()" type="number"
                                 placeholder="Enter your phone number" name=""
-                                class=" border py-5 pl-6 w-full rounded-xl ">
+                                class=" border py-5 pl-6 w-full rounded-xl" required>
                             <h1 class="font-bold">Email ID</h1>
                             <input type="email" name="" placeholder="Enter your email id" id=""
-                                class=" border py-5 pl-6 w-full rounded-xl  ">
+                                class=" border py-5 pl-6 w-full rounded-xl" required>
 
                             <a href="#main-section-2"><button disabled id="input-info-btn" onclick="nextBtn()"
                                     class="btn w-full mt-5 text-white bg-[#1DD100]  rounded-2xl hover:bg-[#B68C5A] duration-500">Next</button></a>
@@ -430,14 +430,14 @@
     </main>
 
     <main id="main-section-2" class="hidden bg-slate-300  min-h-screen flex justify-center items-center">
-        <div class="w-[600px] h-[450px] bg-white flex flex-col justify-center items-center gap-6">
+        <div class="w-[600px] h-[450px] bg-white flex flex-col justify-center items-center gap-6 shadow-2xl">
             <img class="" src="./images/success.png" alt="">
             <h1 class="text-[#27AE60] text-2xl font-bold">SUCCESS</h1>
             <h2 class="font-bold px-32 text-center">Thank you for Booking Our Bus Seats.
                 We are working hard to find the best service and deals for you. </h2>
             <p>Shortly you will find a confirmation in your email.</p>
             <button id="continue-btn" onclick="continueBtn()"
-                class="btn bg-[#27AE60] text-white px-28 rounded-3xl">Continue</button>
+                class="btn bg-[#27AE60] text-white px-28 rounded-3xl hover:bg-[#B68C5A] duration-500">Continue</button>
 
         </div>
     </main>
