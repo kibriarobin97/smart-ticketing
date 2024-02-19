@@ -92,7 +92,8 @@ function couponBtn(){
     applyBtn.classList.add('hidden')
 
     
-  }else if(inputCoupon ==='couple 20'){
+  }
+  else if(inputCoupon ==='couple 20'){
     const discount = grandTotal * 0.20;
     grandTotal = grandTotal - discount;
     document.getElementById('grand-total').innerText = grandTotal;
@@ -112,7 +113,8 @@ function couponBtn(){
 
     document.getElementById('input-coupon').classList.add('hidden');
     applyBtn.classList.add('hidden');
-  }else{
+  }
+  else{
     alert('Invalid Coupon Code!');
   }
   
